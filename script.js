@@ -16,14 +16,14 @@ document.querySelectorAll('.nav-links a').forEach(link => {
 // EmailJS Contact form submission handler
 (function() {
   // Replace 'YOUR_USER_ID' with your actual EmailJS user ID
-  emailjs.init("AZC2P0XDjYIQU2fbA");
+  emailjs.init('hXZbkWH1gg3REXhEa');
 })();
 
 document.getElementById('contactForm').addEventListener('submit', function(e) {
     e.preventDefault();
     // Your Service ID is set as 'service_29656ff'
     // Replace 'YOUR_TEMPLATE_ID' with your EmailJS Template ID
-    emailjs.sendForm('service_29656ff', 'template_2uk73lu', this)
+    emailjs.sendForm('service_29656ff', 'template_9llb6lv', this)
         .then(function() {
             document.getElementById('formSuccess').style.display = 'block';
         }, function(error) {
@@ -31,6 +31,7 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
         });
     this.reset();
 });
+
 
 
 

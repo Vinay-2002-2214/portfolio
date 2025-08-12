@@ -23,7 +23,7 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
     e.preventDefault();
     // Your Service ID is set as 'service_29656ff'
     // Replace 'YOUR_TEMPLATE_ID' with your EmailJS Template ID
-    emailjs.sendForm('service_29656ff', 'YOUR_TEMPLATE_ID', this)
+    emailjs.sendForm('service_29656ff', 'template_2uk73lu', this)
         .then(function() {
             document.getElementById('formSuccess').style.display = 'block';
         }, function(error) {
@@ -31,3 +31,4 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
         });
     this.reset();
 });
+

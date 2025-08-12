@@ -16,7 +16,7 @@ document.querySelectorAll('.nav-links a').forEach(link => {
 // EmailJS Contact form submission handler
 (function() {
   // Replace 'YOUR_USER_ID' with your actual EmailJS user ID
-  emailjs.init("uH8Jmn-6-uzTTW23f");
+  emailjs.init("AZC2P0XDjYIQU2fbA");
 })();
 
 document.getElementById('contactForm').addEventListener('submit', function(e) {
@@ -31,5 +31,6 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
         });
     this.reset();
 });
+
 
 

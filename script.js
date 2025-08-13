@@ -32,6 +32,19 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
     this.reset();
 });
 
-
-
-
+// --- Certifications Feature ---
+document.addEventListener('DOMContentLoaded', function() {
+    const btn = document.getElementById('show-certificates-btn');
+    const list = document.getElementById('certificates-list');
+    if (btn) {
+        btn.addEventListener('click', function() {
+            if (list.style.display === "none" || list.style.display === "") {
+                list.style.display = "flex";
+                btn.textContent = "Hide Certificates";
+            } else {
+                list.style.display = "none";
+                btn.textContent = "Show Certificates";
+            }
+        });
+    }
+});

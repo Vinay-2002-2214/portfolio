@@ -230,3 +230,43 @@ footer {
     padding: 1rem;
     font-size: 0.9rem;
 }
+
+/* --- Certifications Section Styles --- */
+.certifications {
+    margin: 40px 0;
+    padding: 20px;
+    background: #f4f4f4;
+    border-radius: 8px;
+}
+#show-certificates-btn {
+    padding: 10px 20px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+#show-certificates-btn:hover {
+    background: #0056b3;
+}
+#certificates-list {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+.certificate {
+    background: #fff;
+    padding: 12px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    width: 250px;
+    text-align: center;
+}
+.certificate img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
